@@ -1,5 +1,5 @@
    
-    function gallery(){
+  
     var leftArrow = document.getElementById('leftArrow');
     var rightArrow = document.getElementById('rightArrow');
     var initImgNumber = 1;
@@ -23,4 +23,3 @@
         if(initImgNumber > maxImgNumber){initImgNumber = 1};
         image.setAttribute('src', 'img/' + initImgNumber + '.jpg');
     };
-};
